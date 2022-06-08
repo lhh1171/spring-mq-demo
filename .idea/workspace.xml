@@ -14,10 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46486c33-c0ce-47ab-90e8-ebae5edab5a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KafkaProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka_producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.kafka_producer.KafkaProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654605830840</updated>
       <workItem from="1654605831878" duration="184000" />
-      <workItem from="1654660749038" duration="3107000" />
+      <workItem from="1654660749038" duration="5627000" />
     </task>
     <servers />
   </component>
@@ -94,5 +101,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="474" y="225" width="1436" height="609" key="new project wizard" timestamp="1654701871607">
+      <screen x="0" y="27" width="1920" height="999" />
+    </state>
+    <state x="474" y="225" width="1436" height="609" key="new project wizard/0.27.1920.999@0.27.1920.999" timestamp="1654701871607" />
   </component>
 </project>
