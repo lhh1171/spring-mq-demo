@@ -15,6 +15,7 @@
     <modules>
         <module>kafka_consumer</module>
         <module>kafka_producer</module>
+        <module>kafka_listener</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

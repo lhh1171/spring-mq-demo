@@ -2,18 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="kafka_listener" />
         <module name="kafka_producer" />
         <module name="kafka_consumer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka_consumer" target="1.8" />
+      <module name="kafka_listener" target="1.8" />
+      <module name="kafka_producer" target="1.8" />
+      <module name="springcloud_MQ_demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="kafka_consumer" options="-parameters" />
+      <module name="kafka_listener" options="-parameters" />
       <module name="kafka_producer" options="-parameters" />
       <module name="springcloud_MQ_demo" options="-parameters" />
     </option>
